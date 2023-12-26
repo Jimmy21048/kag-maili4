@@ -50,7 +50,7 @@ setInterval(function() {
         <h3>${verses[count].book}</h3>
         <p>${verses[count].verse}</p>
     `;
-},7000);
+},10000);
 
 
 function loaded() {
