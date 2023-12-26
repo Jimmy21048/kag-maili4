@@ -1,15 +1,19 @@
 * {
     box-sizing: border-box;
-    border:1px solid;
+    /* border:1px solid; */
     margin:0;
     padding:0;
 }
 body {
     height:100vh;
     width:100vw;
+    font-family: 'Montserrat', sans-serif;
     /* overflow: hidden; */
 }
 @media screen and (max-width:1000px) {
+    body {
+        
+    }
     header {
         height:10vh;
         display:flex;
@@ -62,10 +66,15 @@ body {
     .container {
         height:80vh;
         overflow-y:scroll;
+        /* background-image: url(images/bgc8.jpg); */
+        background-repeat: no-repeat;
+        background-size: 500px 800px;
+        background-color:#99FFFF;
+        object-fit: contain;
     }
     #home {
         height:inherit;
-        background-color: rgb(219, 255, 252);
+        /* background-color: ; */
         display:flex;
         flex-direction:column;
         justify-content: space-around;
@@ -112,18 +121,18 @@ body {
 
     #programmes {
         height:inherit;
-        background-color: red;
+        background-color: #F0F8FF;
     }
     #events {
         height:inherit;
-        background-color: orange;
+        background-color: #bde0fe;
     }
     #groups {
         height:inherit;
-        background-color: blue;
+        background-color: #DFFFFD;
     }
     #timeline {
         height:inherit;
-        background-color: yellow;
+        background-color: #40E0D0;
     }
 }
