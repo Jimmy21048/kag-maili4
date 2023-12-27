@@ -11,6 +11,9 @@ body {
     overflow: hidden;
 }
 @media screen and (max-width:1000px) {
+    body {
+        margin-top:5vh;
+    }
     header {
         height:10vh;
         display:flex;
@@ -73,7 +76,7 @@ body {
         border-bottom:3px solid orangered;
     }
     .container {
-        height:85vh;
+        height:80vh;
         width:100vw;
         overflow-y:scroll;
         overflow-x: hidden;
@@ -99,7 +102,7 @@ body {
         border:2px solid;
     }
     .home-title {
-        height:25%;
+        height:20%;
         display:flex;
         flex-direction:column;
         align-items:center;
@@ -110,7 +113,7 @@ body {
         font-weight:1200;
     }
     .home-image {
-        height:35%;
+        height:40%;
         width:98vw;
         display:flex;
         justify-content: center;
@@ -120,9 +123,6 @@ body {
         height:100%;
         width:98%;
         box-shadow: 5px 5px 5px  rgb(16, 111, 128);
-        position:relative;
-        z-index:2;
-        opacity:1;
     }
     .home-verse {
         height:25%;
