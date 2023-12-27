@@ -5,8 +5,8 @@ let verses = [
         verse:"In the world you will have tribulation. But take heart; I have overcome the world."
     },
     {
-        book:"Romans 8:28",
-        verse:"And we know that for those who love God all things work together for good, for those who are called according to His purpose."
+        book:"Mithali 3:5-6.",
+        verse:"Mtumaini bwana kwa moyo wako wote, wala usitegemee ufahamu wako mwenyewe; Katika njia zako zote mtambue, naye atazielekeza njia zako."
     },
     {
         book:"Isaiah 41:13",
@@ -21,8 +21,8 @@ let verses = [
         verse:"Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others."
     },
     {
-        book:"2 Chronicles 7:14",
-        verse:"If my people who are called by My name humble themselves, and pray and seek My face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land."
+        book:"Marko 11:24.",
+        verse:" Kwa hiyo nawaambieni, mnaposali na kuomba kitu, aminini kwmba mmekipokea, nanyi mtapewa."
     },
     {
         book:"KAG mailinne",
