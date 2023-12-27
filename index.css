@@ -71,15 +71,19 @@ body {
     .container {
         height:80vh;
         overflow-y:scroll;
-        /* background-image: url(images/bgc8.jpg); */
+        background-image: url(images/bgc8.jpg);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
         background-repeat: no-repeat;
-        background-size: 500px 800px;
+        background-position:center;
+        background-size:cover;
         background-color:#99FFFF;
-        object-fit: contain;
+        position:absolute;
     }
     #home {
         height:inherit;
-        /* background-color: ; */
+        background-color: rgb(126, 237, 252);
+        opacity:0.6;
         display:flex;
         flex-direction:column;
         justify-content: space-around;
@@ -90,6 +94,10 @@ body {
         flex-direction:column;
         align-items:center;
         justify-content:space-around;
+    }
+    .home-title h2 {
+        font-size:1.5rem;
+        font-weight:bolder;
     }
     .home-image {
         height:35%;
@@ -120,24 +128,28 @@ body {
         font-size:1.2rem;
     }
     .home-verse p {
-        /* font-weight: 700; */
+        font-weight: 700;
         font-family:Verdana;
     }
 
     #programmes {
         height:inherit;
         background-color: #F0F8FF;
+        opacity: 0.6;
     }
     #events {
         height:inherit;
         background-color: #bde0fe;
+        opacity: 0.6;
     }
     #groups {
         height:inherit;
         background-color: #DFFFFD;
+        opacity: 0.6;
     }
     #timeline {
         height:inherit;
         background-color: #40E0D0;
+        opacity: 0.6;
     }
 }
