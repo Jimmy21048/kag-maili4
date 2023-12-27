@@ -73,7 +73,7 @@ body {
         border-bottom:3px solid orangered;
     }
     .container {
-        height:80vh;
+        height:85vh;
         width:100vw;
         overflow-y:scroll;
         overflow-x: hidden;
@@ -214,9 +214,10 @@ body {
         display:flex;
         flex-direction:column;
         justify-content:space-around;
+        margin-bottom:20px;
     }
     .groups-board .board-members {
-        height:90%;
+        height:80%;
         width:100vw;
         display:flex;
         align-items:center;
@@ -232,6 +233,38 @@ body {
     }
     .groups-singers {
         height:50vh;
+        width:100vw;
+    }
+    .praise-worship {
+        width:100vw;
+        display:flex;
+        gap:20px;
+        align-items:center;
+        overflow:scroll;
+        padding:5px;
+    }
+    .singers-label  {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:Center;
+        width:90%;
+        height:45vh;
+        padding:5px;
+    }
+    .singers-label p {
+        width:80vw;
+        height:5vh;
+        text-align:center;
+    }
+    .praise-worship img {
+        height:30vh;
+        width:98%;
+    }
+    .singer {
+        height:200px;
+        min-width:200px;
+        border:1px solid;
     }
     #timeline {
         height:inherit;
