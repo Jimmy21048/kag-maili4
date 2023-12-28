@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* border:1px solid; */
+    border:1px solid;
     margin:0;
     padding:0;
 }
@@ -210,11 +210,7 @@ body {
         background-color: rgb(236, 228, 228);
         color:black;
     }
-    #events {
-        height:120vh;
-        background-color: #bde0fe;
-        opacity: 0.6;
-    }
+
     #groups {
         /* height:inherit; */
         width:inherit;
@@ -313,9 +309,44 @@ body {
     .groups-choir {
         height:50vh;
     }
+    #events {
+        height:80vh;
+        /* width: 300vw; */
+        /* background-color: #bde0fe; */
+        opacity: 1;
+        display: flex;
+        gap: 35px;
+        align-items: center;
+        justify-content: space-between ;
+        padding-left: 35px;
+        overflow-x: scroll;
+    }
+    .event {
+        height: 80%;
+        width: 85vw;
+        min-width: 80vw;
+    }
+    .event img {
+        height:80vh;
+        width: inherit;
+        object-fit: contain;
+    }
     #timeline {
         height:inherit;
         background-color: #40E0D0;
         opacity: 0.6;
+    }
+    #timeline h3{
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    #timeline h4{
+        text-align: center;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
