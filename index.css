@@ -94,8 +94,11 @@ body {
     #home {
         height:inherit;
         width:100vw;
-        background-color: rgb(129, 234, 248);
-        opacity:0.8;
+        /* background-color: rgb(129, 234, 248); */
+        background-image: url(images/imgb.jpg);
+        background-position:center;
+        background-size: cover;
+        opacity:1;
         display:flex;
         flex-direction:column;
         justify-content: space-around;
