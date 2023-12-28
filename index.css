@@ -283,6 +283,21 @@ body {
         min-width:200px;
         border:1px solid;
     }
+    .groups-women {
+        height:50vh;
+    }
+    .groups-youth {
+        height:50vh;
+    }
+    .groups-men {
+        height:50vh;
+    }
+    .groups-children {
+        height:50vh;
+    }
+    .groups-choir {
+        height:50vh;
+    }
     #timeline {
         height:inherit;
         background-color: #40E0D0;
