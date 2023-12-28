@@ -218,8 +218,12 @@ body {
     #groups {
         /* height:inherit; */
         width:inherit;
-        background-color: #DFFFFD;
-        opacity: 0.6;
+        /* background-color: #DFFFFD; */
+        background-image: url(/images/imgb.jpg);
+        background-position:center;
+        background-size: cover;
+        opacity:1;
+        opacity: 1;
         padding:5px;
     }
     #groups h2, #groups h3 {
@@ -237,7 +241,7 @@ body {
         height:80%;
         width:100vw;
         display:flex;
-        align-items:center;
+        /* align-items */
         overflow:scroll;
         padding:0 10px;
         gap:30px;
@@ -247,6 +251,17 @@ body {
         min-width:200px;
         border-radius:50%;
         border:2px solid;
+        background-color: black;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    .member img {
+        min-height:100%;
+        width:100%;
+        border-radius: 50%;
+        object-fit: contain;
     }
     .groups-singers {
         height:50vh;
