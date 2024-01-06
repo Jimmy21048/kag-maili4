@@ -53,8 +53,46 @@ setInterval(function() {
 },10000);
 
 
-function loaded() {
+let myIndex = 1;
+showIndex(myIndex,"");
 
-    // homeVerse.innerHTML = verses[]
-    
+
+function handleChildren(n) {
+    showIndex(myIndex += n, "imgChild");
+}
+function handleChoir(n) {
+    showIndex(myIndex += n, "imgChoir");
+}
+function handleSingers(n) {
+    showIndex(myIndex += n, "imgSingers");
+}
+function handleWomen(n) {
+    showIndex(myIndex += n, "imgWomen");
+}
+function handleMen(n) {
+    showIndex(myIndex += n, "imgMen");
+}
+function handleYouth(n) {
+    showIndex(myIndex += n, "imgYouth");
+}
+function handleTeens(n) {
+    showIndex(myIndex += n, "imgTeens");
+}
+
+function showIndex(n, theClass) {
+    let slides = document.getElementsByClassName(`${theClass}`);
+    // let slides = document.getElementById("img1");
+
+    if(n >slides.length) {
+        myIndex = 1;
+    }
+    if(n < 1) {
+        myIndex = slides.length;
+    }
+
+    for(let i=0; i<slides.length;i++) {
+        slides[i].style.display= "none";
+    }
+
+    slides[myIndex-1].style.display = "block";
 }

@@ -17,10 +17,10 @@
         <a href="#home"><button><i class="fa-solid fa-house"></i>HOME</button></a>
     </header>
     <div class="tabs">
-        <a href="#programmes"><button>PROGRAMS</button></a>
-        <a href="#groups"><button>GROUPS</button></a>
-        <a href="#events"><button>EVENTS</button></a>
-        <a href="#timeline"><button>TIMELINE</button></a>
+        <a href="#programmes">PROGRAMS</a>
+        <a href="#groups">GROUPS</a>
+        <a href="#events">EVENTS</a>
+        <a href="#timeline">TIMELINE</a>
         
     </div>
     <div class="container">
@@ -112,65 +112,115 @@
                 </div>
             </div>
             <div class="groups singers">
-                <h3>PRAISE AND WORSHIP</h3>
+                <h3>PRAISE N WORSHIP TEAM</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgSingers" src="images/praise/praise1.JPG" alt="">
+                            <img class="imgSingers" src="images/praise/praise2.JPG" alt="">
+                            <img class="imgSingers" src="images/praise/praise3.JPG" alt="">
+
+                            <a onclick="handleSingers(1)" class="next">&#10095</a>
+                            <a onclick="handleSingers(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            KAG praise & worship team.
+                            <b>PSALMS 149:1</b>
+                            <i>Praise ye the LORD. Sing unto the LORD a new song, and his praise in the congregation of saints</i>
                         </p>
                     </div>
             </div>
             <div class="groups women">
-                <h3>WAMAMA</h3>
+                <h3>WOMEN'S DEPARTMENT</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgWomen" src="images/women/women1.JPG" alt="">
+                            <img class="imgWomen" src="images/women/women2.JPG" alt="">
+
+                            <a onclick="handleWomen(1)" class="next">&#10095</a>
+                            <a onclick="handleWomen(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            Wamama
+                            <b>PROVERBS 31:25</b>
+                            <i>She is clothed with strength and dignity, and she laughs without fear of the future</i>
                         </p>
                     </div>
             </div>
             <div class="groups men">
-                <h3>WAZEE</h3>
+                <h3>MEN'S DEPARTMENT</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgMen" src="images/men/men1.JPG" alt="">
+
+                            <a onclick="handleMen(1)" class="next">&#10095</a>
+                            <a onclick="handleMen(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            Wazee
+                            <b>1 CORINTHIANS 16:13-14</b>
+                            <i>Be watchful, stand firm in the faith, act like men, be strong. Let all that you do be done in love</i>
                         </p>
                     </div>
             </div>
             <div class="groups youth">
                 <h3>YOUTH</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgYouth" src="images/youth/youth2.JPG" alt="">
+                            <img class="imgYouth" src="images/youth/youth1.jpg" alt="">
+
+                            <a onclick="handleYouth(1)" class="next">&#10095</a>
+                            <a onclick="handleYouth(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            Youth
+                            <b>ISAIAH 40:30-31</b>
+                            <i>Even youths grow tired and weary, and young men stumble and fall, but those who hope in the LORD will renew their strength</i>
                         </p>
                     </div>
             </div>
             <div class="groups teens">
-                <h3>TEENAGERS</h3>
+                <h3>KAG YOUNGSTERS (TEENS)</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgTeens" src="images/teens/teens3.JPG" alt="">
+                            <img class="imgTeens" src="images/teens/teens2.jpg" alt="">
+                            <img class="imgTeens" src="images/teens/teens1.jpg" alt="">
+
+                            <a onclick="handleTeens(1)" class="next">&#10095</a>
+                            <a onclick="handleTeens(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            kag teens
+                            <b>1 TIMOTHY 4:12</b>
+                            <i>Don't let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity</i>
                         </p>
                     </div>
             </div>
             <div class="groups children">
                 <h3>WATOTO</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgChild" src="images/children/children2.JPG" alt="">
+                            <img class="imgChild" src="images/children/children1.jpg" alt="">
+                            
+                            <a onclick="handleChildren(1)" class="next">&#10095</a>
+                            <a onclick="handleChildren(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            KAG youngsters
+                            <b>PROVERBS 22:6</b>
+                            <i>Start children off on the way they should go, and even when they are old they will not turn from it</i>
                         </p>
                     </div>
             </div>
             <div class="groups choir">
                 <h3>KAG CHOIR</h3>
                     <div class="singers-label">
-                        <img src="" alt="">
+                        <div class="img">
+                            <img class="imgChoir" src="images/choir/choir1.JPG" alt="">
+                            <img class="imgChoir" src="images/choir/choir2.JPG" alt="">
+
+                            <a onclick="handleChoir(1)" class="next">&#10095</a>
+                            <a onclick="handleChoir(-1)" class="prev">&#10094</a>
+                        </div>
                         <p>
-                            Choir team
+                            <b>PSALMS 9:2</b>
+                            <i>I will be glad and exult in you; I will sing praise to your name, O Most High</i>
                         </p>
                     </div>
             </div>
