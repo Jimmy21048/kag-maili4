@@ -64,7 +64,7 @@ header button {
 .container {
     overflow-y:scroll;
     overflow-x: hidden;
-    background-image: url(images/bgc8.jpg);
+    background-image: url(images/imgb.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
@@ -243,10 +243,11 @@ header button {
 .img img {
     height:43vh;
     width:35vw;
-    object-fit: cover;
+    object-fit:cover;
     position:absolute;
     animation:fade 0.7s ease;
     border-radius:20px;
+    /* display:none; */
 }
 @keyframes fade {
     from {
