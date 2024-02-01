@@ -483,11 +483,12 @@ header button {
         padding-left:20px;
     }
     .event {
-        width: 85vw;
+        width: 80vw;
         min-width: 80vw;
     }
     .event img {
-        /* height:80vh; */
+        height:65vh;
+        width:90%;
     }
 
 }
