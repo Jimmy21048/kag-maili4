@@ -289,7 +289,7 @@ header button {
     /* left:10px; */
 }
 #events {
-    height:80vh;
+    height:90vh;
     opacity: 1;
     display: flex;
     gap: 35px;
@@ -335,7 +335,9 @@ header button {
     
 }
 .event-title {
-    color:#40E0D0;
+    color:#1a2221;
+    font-weight:800;
+    font-size:1.2rem;
 }
 
 
@@ -479,16 +481,18 @@ header button {
 
     }
     #events {
-        /* height:80vh; */
+        height:80vh;
         padding-left:20px;
     }
     .event {
         width: 80vw;
         min-width: 80vw;
+        border:1px solid;
     }
     .event img {
         height:65vh;
         width:90%;
+        object-fit:fill;
     }
 
 }
