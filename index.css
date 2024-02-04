@@ -468,11 +468,20 @@ header button {
     }
     .singers-label .img {
         height:40vh;
-        width:85vw;
+        width:100%;
+        display:flex;
+        gap:10px;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        padding-left:10px;
     }
     .img img {
-        height:40vh;
-        width:85vw;
+        height:35vh;
+        width:70vw;
+        position:initial;
+    }
+    .img a {
+        display:none;
     }
     .singers-label p {
         height:20vh;
@@ -492,7 +501,7 @@ header button {
     .event img {
         height:65vh;
         width:90%;
-        object-fit:fill;
+        object-fit:cover;
     }
 
 }
